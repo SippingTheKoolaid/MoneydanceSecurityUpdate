@@ -3,7 +3,7 @@ Tired of waiting for the update from the Moneydance team to address issues with 
 
 Using the Moneydance Developer API and shamelessly "borrowing" published coding ideas from a variety of individuals, this is the ugly Python script I pulled together to update Moneydance securities AND currency rates.  The goal was a quick solution, not a finely designed application with a front-end.  
 
-## Security & Currency quote retreval
+## Security & Currency quote retrieval
 This script uses the free API provided by AlphaVantage (www.alphavantage.co).  You sign up and they provide an apikey that can be passed on command-line, no additional authentication required.
 
 I also used Intrinio (https://intrinio.com/) which requires basic authentication, but went with AlphaVantage due to ease of implementation and support for both currency rates and securities.  The script could be better designed to support a number of the free services, if anyone is so inclined.
