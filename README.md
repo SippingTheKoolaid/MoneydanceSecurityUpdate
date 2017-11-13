@@ -39,3 +39,12 @@ Copy *jython-standalone-2.7.1-rc3.jar* to *C:\Program Files\Moneydance\jars\MDPy
 
 Other details about 2.7.1-rc3 can be found here: http://fwierzbicki.blogspot.com/2017/06/jython-271-release-candidate-3-released.html
 
+
+Download UpdateSecurity_MD.py from github https://github.com/SippingTheKoolaid/MoneydanceSecurityUpdate/blob/master/UpdateSecurities_MD.py
+
+Edit UpdateSecurity_MD.py and add your apikey from AlphaVantage
+
+Open Moneydance, click on Window, Python Scripting, Open Script, and run.
+
+Enjoy!
+
