@@ -42,9 +42,9 @@ Other details about 2.7.1-rc3 can be found here: http://fwierzbicki.blogspot.com
 
 Download UpdateSecurity_MD.py from github https://github.com/SippingTheKoolaid/MoneydanceSecurityUpdate/blob/master/UpdateSecurities_MD.py
 
-Edit UpdateSecurity_MD.py and add your apikey from AlphaVantage
+Edit UpdateSecurities_MD.py and add your apikey from AlphaVantage
 
-Open Moneydance, click on Window, Python Scripting, Open Script, and run.
+Open Moneydance, click on Window, Python Scripting, Open Script, select UpdateSecurities_MD.py and Run.
 
 Enjoy!
 
