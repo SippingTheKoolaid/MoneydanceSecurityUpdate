@@ -27,6 +27,8 @@ So here's where anyone implementing this solution needs to decide if getting upd
 
 Download the latest Jython jar:  http://search.maven.org/remotecontent?filepath=org/python/jython-standalone/2.7.1-rc3/jython-standalone-2.7.1-rc3.jar
 
+Close down the Moneydance application if it is running
+
 In your Moneydance program directory (i.e. C:\Program Files\Moneydance), rename the following files to \*.old :
 
 *C:\Program Files\Moneydance\jars\MDPython.jar*
