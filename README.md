@@ -25,15 +25,15 @@ I found the most recent bleeding-edge release of Jython had been published and h
 ### Danger, Danger, Will Robinson
 So here's where anyone implementing this solution needs to decide if getting updates to securities and currency RIGHT NOW is worth making a tweak to their environment that is not fully vetted, and likely unsupported, by Moneydance.  I have had no issues with the solution, and made sure to backup my md files before trying this.  You should, at a minimum, make back-ups of your Moneydance program directory, of your Moneydance data files, and have a general understanding of how you would restore to original setup should something go wrong.  If you proceed with the solution I implemented in my environment, I accept no liability for any damages.  These were the steps I took to implement, your paths and files may vary.
 
-Download the latest Jython jar:  http://search.maven.org/remotecontent?filepath=org/python/jython-standalone/2.7.1-rc3/jython-standalone-2.7.1-rc3.jar
+Download the latest Jython pre-built standalone jar:  http://search.maven.org/remotecontent?filepath=org/python/jython-standalone/2.7.1-rc3/jython-standalone-2.7.1-rc3.jar
 
 Close down the Moneydance application if it is running
 
 In your Moneydance program directory (i.e. C:\Program Files\Moneydance), rename the following files to \*.old :
 
-*C:\Program Files\Moneydance\jars\MDPython.jar*
+  *C:\Program Files\Moneydance\jars\MDPython.jar*
 
-*C:\Program Files\Moneydance\jars\cachedir\packages\MDpython.pkc*
+  *C:\Program Files\Moneydance\jars\cachedir\packages\MDpython.pkc*
 
 Copy *jython-standalone-2.7.1-rc3.jar* to *C:\Program Files\Moneydance\jars\MDPython.jar*
 
