@@ -1,4 +1,4 @@
-# Moneydance Security Update
+# Quick & Dirty Moneydance Security Update
 Tired of waiting for the update from the Moneydance team to address issues with Yahoo finance API being terminated, I embarked on a means to update this myself.  I am sharing my solution for anyone brave enough to try it.  I take no responsibility for any damage to your data through the use, or mis-use of these instructions and published scripts.
 
 Using the Moneydance Developer API and shamelessly "borrowing" published coding ideas from a variety of individuals, this is the ugly Python script I pulled together to update Moneydance securities AND currency rates.  The goal was a quick solution, not a finely designed application with a front-end.  
